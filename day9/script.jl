@@ -29,5 +29,5 @@ function part2(numbers::Vector{Int},result::Int)
     end
 end
 
-part1(lines,25)
-part2(lines,part1(lines,25))
+res = part1(lines,25)
+part2(lines,res)
